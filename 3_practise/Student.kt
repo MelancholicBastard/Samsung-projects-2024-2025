@@ -2,10 +2,10 @@ class Student {
     var name: String = "sasha"
     val lastname: String = "petrov"
 
-    fun bye() {
-        println("bye")
+    fun bye(): String {
+        return "bye"
     }
-    fun hi() {
-        println("hi")
+    fun hi(): String {
+        return "hi"
     }
 }

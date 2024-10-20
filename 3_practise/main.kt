@@ -47,3 +47,13 @@ fun main() {
     println(Student().name)
 
 }
+
+class LintListNode {
+    val x = 0
+    val nodeNext = LintListNode()
+    val nodePrev = null
+}
+
+class ArrayNode(val i:Int) {
+    val x = 123
+}
